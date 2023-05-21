@@ -174,56 +174,245 @@ li::after{
 li:hover::after{
   visibility: visible;
   transform: scaleX(1);
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://kit.fontawesome.com/b0b8fb377f.js" crossorigin="anonymous"></script>
 
-.container{
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Teacher Zhyan Muhammed</h1>
+  </div>
+  <div class="con">
+    
+  <div class="all">
+    <div class="box1">
+      <i class="fa-solid fa-house"></i>
+      <p>Home</p>
+    </div>
+    <div class="box2">
+      <i class="fa-solid fa-toolbox"></i>
+      <p>Tools</p>
+    </div>
+  
+  </div>
+  <div class="all2">
+    
+  
+          <div class="box1">
+      <i class="fa-solid fa-gear"></i>
+      <p>Setting</p>
+    </div>
+    <div class="box2">
+      <i class="fa-solid fa-circle-info"></i>
+      <p>Info</p>
+    </div>
+  </div>
+    </div>
+<div class="foot">
+  <ul>
+    <li><i class="fa-solid fa-house"></i>
+</li>
+    <li><i class="fa-solid fa-toolbox"></i>
+</li>
+    <li><i class="fa-solid fa-gear"></i>
+</li>
+  </ul>
+  
+</div>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+*{
+  padding:0;
+  margin:0;
+  background-color: #ffffff;
+}
+.header{
+  width:100%;
+  height: 200px;
+  background-color: #5A73FF;
+  margin:0 auto;
+    margin-bottom: 50px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+
+}
+.header i{
+  font-size: 20px;
+  background: none;
+  margin-left: 10px;
+}
+.header h1{
+  
+  font-size: 20px;
+  background: none;
+  color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
+    position: relative;
+    bottom: 50px;
+
+}
+.all{
+  width: 100%;
+  height: 150px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 15px;
+position: relative;
+bottom: 150px;
+background-color:#ffffff;
+border-radius: 30px;
+}
+.box1{
+  width:130px;
+  height: 130px;
+  display: flex;
   flex-direction: column;
-  margin:0 auto;
-  width: 70%;
-  background-color: white;
-  height: 250px;
-  border-radius:6px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
-          font-family: 'PT Sans', sans-serif;
-          position: relative;
-          visibility: hidden;
-
-}
-.container i{
-  
-  position: relative;
-  bottom: 35px;
-  font-size:70px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
   border:0;
-  border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
-
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-size: 20px;
+  font-family: 'Tajawal', sans-serif;
+  margin-right: 10px;
+position: relative;
+top:20px;
+margin-top:120px;
 }
-.container button{
-  width:50%;
-  padding: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) ;
-      background-color: #56ACDC;
-      border:0;
-      border-radius: 6px;
-      position: relative;
-      top: 25px;
 
+.box1 i{
+  background: none;
+  font-size: 60px;
+  position: absolute;
+  margin-bottom: 20px;
+  color:#5A73FF;
+
+  
 }
-.container p{
+.box1 p{
+  position: absolute;
+  margin-top:100px;
+  background: none;
+  color:#5A73FF;
+}
+
+.box2 {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-size: 20px;
+  font-family: 'Tajawal', sans-serif;
+  margin-left: 10px;
   position: relative;
-  bottom: 25px;
-}
-.open-container{
-  visibility: visible;
-  transform: translate(-50%, -50%) scale(1);
-  left:130px;
-  bottom: 450px;
-   }
-  </style>
+top:20px;
+margin-top:120px;
 
+
+
+
+}
+
+.box2 i {
+  background: none;
+  font-size: 60px;
+  position: absolute;
+  margin-bottom: 20px;
+  color: #5A73FF;
+
+
+
+}
+
+.box2 p {
+  position: absolute;
+  margin-top: 100px;
+  background: none;
+  color: #5A73FF;
+}
+.all2{
+    width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  position: relative;
+bottom: 150px;
+background: none;
+margin-top: 10px;
+
+  
+}
+.foot{
+  width: 80%;
+  height:60px;
+  margin:0 auto;
+  background-color: #5A73FF;
+  position: relative;
+  border-radius: 25px;
+  margin-top:110px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+}
+.foot i {
+  background: none;
+}
+.foot ul{
+  list-style-type: none;
+  display: flex;
+  background: none;
+  
+}
+.foot li{
+  background: none;
+  padding-left: 50px;
+  position: relative;
+  right: 25px;
+
+}
+.foot i{
+  font-size: 30px;
+  color:#ffffff
+  ;
+}
+</style>
+  <script src="main.js"></script>
 </body>
 </html>
