@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/b0b8fb377f.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Chemistry Calculator</title>
+
+  
+  
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="all">
+    <input type="text" name="" id="sa" value="" placeholder=" Enter OH" />
+    <button type="submit" onclick="up()" >Calculate</button>
+  </div>
+
+        <div class="foot">
+  <ul>
+    <li><i class="fa-solid fa-house"
+    onclick="home()"></i>
+</li>
+    <li><i class="fa-solid fa-toolbox"
+    onclick="tool()"></i>
+</li>
+    <li><i class="fa-solid fa-gear"></i>
+</li>
+  </ul>
+  
+</div>
+
+
+    
+  </div>
+  
+  <style type="text/css" media="all">
+    *{
+  margin:0;
+  padding: 0;
+  
+}
+.foot{
+  width: 80%;
+  height:60px;
+  margin:0 auto;
+  margin-top:620px;
+  margin-bottom: 0;
+  
+  background-color: #5A73FF;
+  border-radius: 25px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+}
+.foot i {
+  background: none;
+}
+.foot ul{
+  list-style-type: none;
+  display: flex;
+  background: none;
+  margin-right: 50px;
+  
+}
+.foot li{
+  background: none;
+  padding-left: 50px;
+
+
+}
+.foot i{
+  font-size: 30px;
+  color:#ffffff;
+        background: none;
+
+}
+.all input{
+  border:2px solid #5A73FF;
+  border-radius: 6px;
+  height: 40px;
+  width:80%;
+  position: absolute;
+  top:150px;
+  left:10%;
+  
+  
+}
+.all button{
+  border:0;
+  font-size: 15px;
+  border-radius: 6px;
+  width: 100px;
+    height: 40px;
+  position: absolute;
+  top:220px;
+  left:130px;
+  background-color: #5A73FF;
+  
+  
+}
+.all input::placeholder{
+  color:#5A73FF;
+  font-size:15px;
+  padding-left:10px;
+}
+
+
+  </style>
+
+  <script src="main.js"></script>
+  <script type="text/javascript" charset="utf-8">
+            function home(){
+                window.location.href = '/home/index.html';
+
+    }
+        function tool(){
+          window.location.href = '/tools/index.html';
+}
+
+
+  </script>
+</body>
+
+
+
+</html>
+
+
+
