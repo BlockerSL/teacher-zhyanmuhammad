@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chemistry Calculator</title>
+
+  
+  <!-- HTML -->
+  
+        <script src="https://kit.fontawesome.com/b0b8fb377f.js" crossorigin="anonymous"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="all">
+    <div class="box1">
+      <h1>H3O</h1>
+      <i class="fa-solid fa-calculator"
+      onclick="input()"
+      ></i>
+
+      <p> Lets do it</p>
+      
+    </div>
+    
+  </div>
+    <div class="all">
+    <div class="box1">
+      <h1>OH</h1>
+      <i class="fa-solid fa-calculator"      onclick="input()"
+></i>
+
+      <p> Lets do it</p>
+      
+    </div>
+    
+  </div>
+  <div class="all">
+    <div class="box1">
+      <h1>POH</h1>
+      <i class="fa-solid fa-calculator"      onclick="input()"
+></i>
+
+      <p> Lets do it</p>
+      
+    </div>
+    
+  </div>
+  <div class="all">
+    <div class="box1">
+      <h1>PH</h1>
+      <i class="fa-solid fa-calculator"      onclick="input()"
+></i>
+
+      <p> Lets do it</p>
+      
+    </div>
+    
+  </div>
+
+    <div class="foot">
+  <ul>
+        <li><i class="fa-solid fa-house" onclick="home()"></i>
+</li>
+    <li><i class="fa-solid fa-toolbox" onclick="tool()"></i>
+</li>
+    <li><i class="fa-solid fa-gear"></i>
+</li>
+  </ul>
+  
+</div>
+
+  <script src="main.js"></script>
+  <style >
+  *{
+  margin:0;
+  padding: 0;
+  
+}
+.all{
+  margin:0 auto;
+  margin-top: 20px;
+  width:90%;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 25px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+margin-bottom: 10px;
+}
+.box1 h1{
+  font-size: 30px;
+  color:#5A73FF;
+  position: relative;
+  top:5px;
+  left:15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box1 i{
+  color:#5A73FF;
+  position: relative;
+  left:290px;
+  bottom: 20px;
+  font-size: 40px;
+}
+.box1 p{
+  font-size: 15px;
+  color:grey;
+  position: relative;
+  bottom: 20px;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foot{
+  width: 80%;
+  height:60px;
+  margin:0 auto;
+  margin-top: 220px;
+  margin-bottom: 0;
+  
+  background-color: #5A73FF;
+  border-radius: 25px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+}
+.foot i {
+  background: none;
+}
+.foot ul{
+  list-style-type: none;
+  display: flex;
+  background: none;
+  margin-right: 50px;
+  
+}
+.foot li{
+  background: none;
+  padding-left: 50px;
+
+
+}
+.foot i{
+  font-size: 30px;
+  color:#ffffff;
+        background: none;
+
+}
+
+
+    
+  </style>
+  <script type="text/javascript" charset="utf-8">
+  function input(){
+                    window.location.href = '/input/index.html';
+
+  }
+        function home(){
+                window.location.href = '/home/index.html';
+
+    }
+        function tool(){
+          window.location.href = '/tools/index.html';
+}
+
+  </script>
+</body>
+</html>
